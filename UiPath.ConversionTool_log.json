@@ -1,0 +1,447 @@
+{
+  "GlobalStatistics": {
+    "BrowserTypeChangeCount": 1,
+    "SelectorChangesCount": 43,
+    "ActivityTypes": {
+      "ui:OpenBrowser": 1,
+      "ui:TypeInto": 2,
+      "ui:Click": 35,
+      "ui:WaitUiElementAppear": 1,
+      "ui:UiElementExists": 1,
+      "ui:GetValue": 1,
+      "ui:SendHotkey": 3
+    }
+  },
+  "FileChanges": [
+    {
+      "FilePath": "Bot_descarga_comprobantes_LID.xaml",
+      "Statistics": {
+        "BrowserTypeChangeCount": 1,
+        "SelectorChangesCount": 43,
+        "ActivityTypes": {
+          "ui:OpenBrowser": 1,
+          "ui:TypeInto": 2,
+          "ui:Click": 35,
+          "ui:WaitUiElementAppear": 1,
+          "ui:UiElementExists": 1,
+          "ui:GetValue": 1,
+          "ui:SendHotkey": 3
+        }
+      },
+      "Changes": [
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:OpenBrowser",
+          "DisplayName": "Abrir pagina de AFIP",
+          "PropertyName": "BrowserType",
+          "Original": "Chrome",
+          "Value": "Firefox"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "CUIT",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Acceso con Clave Fiscal - AFIP' /><webctrl tag='INPUT' type='number' />",
+          "Value": "<html app='firefox.exe' title='Acceso con Clave Fiscal - AFIP' /><webctrl tag='INPUT' type='number' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Siguiente",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Acceso con Clave Fiscal - AFIP' /><webctrl tag='INPUT' type='submit' />",
+          "Value": "<html app='firefox.exe' title='Acceso con Clave Fiscal - AFIP' /><webctrl tag='INPUT' type='submit' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "CLAVE",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Acceso con Clave Fiscal - AFIP' /><webctrl tag='INPUT' type='password' />",
+          "Value": "<html app='firefox.exe' title='Acceso con Clave Fiscal - AFIP' /><webctrl tag='INPUT' type='password' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Ingresar",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Acceso con Clave Fiscal - AFIP' /><webctrl tag='INPUT' type='submit' />",
+          "Value": "<html app='firefox.exe' title='Acceso con Clave Fiscal - AFIP' /><webctrl tag='INPUT' type='submit' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:WaitUiElementAppear",
+          "DisplayName": "Find Element 'A  /portal/app/mis-serv...'",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' innertext='Ver todos' visibleinnertext='Ver todos' />",
+          "Value": "<html app='firefox.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' innertext='Ver todos' visibleinnertext='Ver todos' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Ver todos",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' parentid='serviciosMasUtilizados' innertext='Ver todos' visibleinnertext='Ver todos' />",
+          "Value": "<html app='firefox.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' parentid='serviciosMasUtilizados' innertext='Ver todos' visibleinnertext='Ver todos' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Comprobantes en Linea",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Portal de Clave Fiscal' /><webctrl aaname='PORTAL IVA' tag='H3' innertext='PORTAL IVA' visibleinnertext='PORTAL IVA' />",
+          "Value": "<html app='firefox.exe' title='Portal de Clave Fiscal' /><webctrl aaname='PORTAL IVA' tag='H3' innertext='PORTAL IVA' visibleinnertext='PORTAL IVA' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element exists",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl aaname=' ' parentid='usernav' tag='A' href='#/changeRelation' uipath-html-title='cambio relación' />",
+          "Value": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl aaname=' ' parentid='usernav' tag='A' href='#/changeRelation' uipath-html-title='cambio relación' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Click icono",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl isleaf='1' parentid='usernav' tag='SPAN' idx='2' />",
+          "Value": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl isleaf='1' parentid='usernav' tag='SPAN' idx='2' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:GetValue",
+          "DisplayName": "text cuit representado",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl class='text-success' tag='STRONG' parentid='usernav' />",
+          "Value": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl class='text-success' tag='STRONG' parentid='usernav' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "click inicio",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl aaname=' Inicio ' innertext=' Inicio ' visibleinnertext='Inicio' />",
+          "Value": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl aaname=' Inicio ' innertext=' Inicio ' visibleinnertext='Inicio' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Ingresar",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl aaname='Ingresar ' innertext='Ingresar ' visibleinnertext='INGRESAR' idx='2' />",
+          "Value": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl aaname='Ingresar ' innertext='Ingresar ' visibleinnertext='INGRESAR' idx='2' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "periodo",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl id='periodo' name='periodo' />",
+          "Value": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl id='periodo' name='periodo' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "click continuar ",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl aaname='Continuar ' innertext='Continuar ' visibleinnertext='CONTINUAR' idx='2' />",
+          "Value": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl aaname='Continuar ' innertext='Continuar ' visibleinnertext='CONTINUAR' idx='2' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "click en ingresar",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl aaname='Ingresar ' innertext='Ingresar ' visibleinnertext='INGRESAR' idx='2' />",
+          "Value": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl aaname='Ingresar ' innertext='Ingresar ' visibleinnertext='INGRESAR' idx='2' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "libro compras",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl aaname='Libro Compras' innertext='  Libro Compras' visibleinnertext='Libro Compras' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl aaname='Libro Compras' innertext='  Libro Compras' visibleinnertext='Libro Compras' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "eliminar todo",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl id='btnEliminarTodo' innertext='Eliminar Todos...' visibleinnertext='ELIMINAR TODOS...' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl id='btnEliminarTodo' innertext='Eliminar Todos...' visibleinnertext='ELIMINAR TODOS...' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "eliminar",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl aaname='Eliminar' innertext='Eliminar' visibleinnertext='ELIMINAR' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl aaname='Eliminar' innertext='Eliminar' visibleinnertext='ELIMINAR' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "importar",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl id='btnDropdownImportar' innertext='Importar ' visibleinnertext='IMPORTAR ' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl id='btnDropdownImportar' innertext='Importar ' visibleinnertext='IMPORTAR ' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Click importar desde afip",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl id='lnkImportarAFIP' innertext='  Importar desde AFIP...' visibleinnertext='  Importar desde AFIP...' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl id='lnkImportarAFIP' innertext='  Importar desde AFIP...' visibleinnertext='  Importar desde AFIP...' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl id='btnImportarAFIPImportar' tag='BUTTON' aaname='Importar' innertext='Importar' visibleinnertext='IMPORTAR' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl id='btnImportarAFIPImportar' tag='BUTTON' aaname='Importar' innertext='Importar' visibleinnertext='IMPORTAR' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "click cerrar importar desde afip",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl parentid='btnTareasCerrar' aaname='Cerrar' innertext='Cerrar' visibleinnertext='CERRAR' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl parentid='btnTareasCerrar' aaname='Cerrar' innertext='Cerrar' visibleinnertext='CERRAR' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "click en descargar excel",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl aaname='CSV' innertext='CSV' visibleinnertext='CSV' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl aaname='CSV' innertext='CSV' visibleinnertext='CSV' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Ingresar",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl aaname='Ingresar ' innertext='Ingresar ' visibleinnertext='INGRESAR' idx='2' />",
+          "Value": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl aaname='Ingresar ' innertext='Ingresar ' visibleinnertext='INGRESAR' idx='2' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "periodo",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl id='periodo' name='periodo' />",
+          "Value": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl id='periodo' name='periodo' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "click continuar ",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl aaname='Continuar ' innertext='Continuar ' visibleinnertext='CONTINUAR' idx='2' />",
+          "Value": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl aaname='Continuar ' innertext='Continuar ' visibleinnertext='CONTINUAR' idx='2' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "click en ingresar",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl aaname='Ingresar ' innertext='Ingresar ' visibleinnertext='INGRESAR' idx='2' />",
+          "Value": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl aaname='Ingresar ' innertext='Ingresar ' visibleinnertext='INGRESAR' idx='2' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "libro compras",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl aaname='Libro Compras' innertext='  Libro Compras' visibleinnertext='Libro Compras' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl aaname='Libro Compras' innertext='  Libro Compras' visibleinnertext='Libro Compras' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "eliminar todo",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl id='btnEliminarTodo' innertext='Eliminar Todos...' visibleinnertext='ELIMINAR TODOS...' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl id='btnEliminarTodo' innertext='Eliminar Todos...' visibleinnertext='ELIMINAR TODOS...' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "eliminar",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl aaname='Eliminar' innertext='Eliminar' visibleinnertext='ELIMINAR' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl aaname='Eliminar' innertext='Eliminar' visibleinnertext='ELIMINAR' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "importar",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl id='btnDropdownImportar' innertext='Importar ' visibleinnertext='IMPORTAR ' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl id='btnDropdownImportar' innertext='Importar ' visibleinnertext='IMPORTAR ' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Click importar desde afip",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl id='lnkImportarAFIP' innertext='  Importar desde AFIP...' visibleinnertext='  Importar desde AFIP...' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl id='lnkImportarAFIP' innertext='  Importar desde AFIP...' visibleinnertext='  Importar desde AFIP...' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl id='btnImportarAFIPImportar' tag='BUTTON' aaname='Importar' innertext='Importar' visibleinnertext='IMPORTAR' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl id='btnImportarAFIPImportar' tag='BUTTON' aaname='Importar' innertext='Importar' visibleinnertext='IMPORTAR' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "click cerrar importar desde afip",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl parentid='btnTareasCerrar' aaname='Cerrar' innertext='Cerrar' visibleinnertext='CERRAR' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl parentid='btnTareasCerrar' aaname='Cerrar' innertext='Cerrar' visibleinnertext='CERRAR' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "click en descargar excel",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl aaname='CSV' innertext='CSV' visibleinnertext='CSV' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl aaname='CSV' innertext='CSV' visibleinnertext='CSV' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Ingresar",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl aaname='Ingresar ' innertext='Ingresar ' visibleinnertext='INGRESAR' idx='2' />",
+          "Value": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl aaname='Ingresar ' innertext='Ingresar ' visibleinnertext='INGRESAR' idx='2' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "periodo",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl id='periodo' name='periodo' />",
+          "Value": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl id='periodo' name='periodo' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "click continuar ",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl aaname='Continuar ' innertext='Continuar ' visibleinnertext='CONTINUAR' idx='2' />",
+          "Value": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl aaname='Continuar ' innertext='Continuar ' visibleinnertext='CONTINUAR' idx='2' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "click en ingresar",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl aaname='Ingresar ' innertext='Ingresar ' visibleinnertext='INGRESAR' idx='2' />",
+          "Value": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl aaname='Ingresar ' innertext='Ingresar ' visibleinnertext='INGRESAR' idx='2' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "libro compras",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl aaname='Libro Compras' innertext='  Libro Compras' visibleinnertext='Libro Compras' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl aaname='Libro Compras' innertext='  Libro Compras' visibleinnertext='Libro Compras' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "click en descargar excel",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Libro IVA' /><webctrl aaname='CSV' innertext='CSV' visibleinnertext='CSV' />",
+          "Value": "<html app='firefox.exe' title='Libro IVA' /><webctrl aaname='CSV' innertext='CSV' visibleinnertext='CSV' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "click icono",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Portal de Clave Fiscal' /><webctrl id='iconoChicoContribuyenteAFIP' parentid='contenedorContribuyente' />",
+          "Value": "<html app='firefox.exe' title='Portal de Clave Fiscal' /><webctrl id='iconoChicoContribuyenteAFIP' parentid='contenedorContribuyente' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "cerrar sesion",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='chrome.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Cerrar sesión' innertext='Cerrar sesión' visibleinnertext='Cerrar sesión' />",
+          "Value": "<html app='firefox.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Cerrar sesión' innertext='Cerrar sesión' visibleinnertext='Cerrar sesión' />"
+        }
+      ],
+      "Warnings": [
+        {
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "Send Hotkey 'chrome.exe Portal'",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Portal de Clave Fiscal - Google Chrome' />"
+        },
+        {
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "Ubicacion + Nombre Archivo",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='chrome.exe' cls='#32770' title='Guardar como' /><wnd aaname='Panel del explorador' cls='DirectUIHWND' /><wnd aaname='Nombre:' cls='ComboBox' /><wnd ctrlid='1001' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Guardar",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='chrome.exe' cls='#32770' title='Guardar como' /><wnd ctrlid='1' title='&amp;Guardar' />"
+        },
+        {
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "cerrar pestaña",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Libro IVA - Google Chrome' /><ctrl name='Libro IVA' idx='1' />"
+        },
+        {
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "Ubicacion + Nombre Archivo",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='chrome.exe' cls='#32770' title='Guardar como' /><wnd aaname='Panel del explorador' cls='DirectUIHWND' /><wnd aaname='Nombre:' cls='ComboBox' /><wnd ctrlid='1001' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Guardar",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='chrome.exe' cls='#32770' title='Guardar como' /><wnd ctrlid='1' title='&amp;Guardar' />"
+        },
+        {
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "cerrar pestaña",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Libro IVA - Google Chrome' /><ctrl name='Libro IVA' idx='1' />"
+        },
+        {
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "Ubicacion + Nombre Archivo",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='chrome.exe' cls='#32770' title='Guardar como' /><wnd aaname='Panel del explorador' cls='DirectUIHWND' /><wnd aaname='Nombre:' cls='ComboBox' /><wnd ctrlid='1001' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Guardar",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='chrome.exe' cls='#32770' title='Guardar como' /><wnd ctrlid='1' title='&amp;Guardar' />"
+        },
+        {
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "cerrar pestaña",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Libro IVA - Google Chrome' /><ctrl name='Libro IVA' idx='1' />"
+        }
+      ]
+    }
+  ]
+}
